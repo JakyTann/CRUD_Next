@@ -1,0 +1,66 @@
+[debug] [2023-09-06T18:53:01.458Z] ----------------------------------------------------------------------
+[debug] [2023-09-06T18:53:01.460Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jakap\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-09-06T18:53:01.460Z] CLI Version:   12.5.2
+[debug] [2023-09-06T18:53:01.460Z] Platform:      win32
+[debug] [2023-09-06T18:53:01.460Z] Node Version:  v18.16.0
+[debug] [2023-09-06T18:53:01.461Z] Time:          Thu Sep 07 2023 01:53:01 GMT+0700 (Indochina Time)
+[debug] [2023-09-06T18:53:01.462Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-06T18:53:01.542Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-06T18:53:01.543Z] > authorizing via signed-in user (jakaphan01@gmail.com)
+[debug] [2023-09-06T18:53:01.543Z] [iam] checking project crud01-8f7b4 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-09-06T18:53:01.545Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions [none]
+[debug] [2023-09-06T18:53:01.545Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions x-goog-quota-user=projects/crud01-8f7b4
+[debug] [2023-09-06T18:53:01.546Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-06T18:53:02.823Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions 200
+[debug] [2023-09-06T18:53:02.823Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-06T18:53:02.824Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crud01-8f7b4 [none]
+[debug] [2023-09-06T18:53:03.229Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crud01-8f7b4 200
+[debug] [2023-09-06T18:53:03.230Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crud01-8f7b4 {"projectId":"crud01-8f7b4","projectNumber":"869505125926","displayName":"Crud01","name":"projects/crud01-8f7b4","resources":{"hostingSite":"crud01-8f7b4"},"state":"ACTIVE","etag":"1_bcc37c76-f300-4233-9457-7e74d47712d3"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Loaded env from C:\Users\jakap\OneDrive\Desktop\CRUDMONGODB\my-crudproject\.env
+
+[info] - info Creating an optimized production build...
+
+[debug] [2023-09-06T19:06:23.076Z] ----------------------------------------------------------------------
+[debug] [2023-09-06T19:06:23.078Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jakap\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-09-06T19:06:23.078Z] CLI Version:   12.5.2
+[debug] [2023-09-06T19:06:23.078Z] Platform:      win32
+[debug] [2023-09-06T19:06:23.078Z] Node Version:  v18.16.0
+[debug] [2023-09-06T19:06:23.079Z] Time:          Thu Sep 07 2023 02:06:23 GMT+0700 (Indochina Time)
+[debug] [2023-09-06T19:06:23.080Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-06T19:06:23.159Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-06T19:06:23.159Z] > authorizing via signed-in user (jakaphan01@gmail.com)
+[debug] [2023-09-06T19:06:23.159Z] [iam] checking project crud01-8f7b4 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-09-06T19:06:23.162Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions [none]
+[debug] [2023-09-06T19:06:23.162Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions x-goog-quota-user=projects/crud01-8f7b4
+[debug] [2023-09-06T19:06:23.162Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-06T19:06:24.434Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions 200
+[debug] [2023-09-06T19:06:24.434Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/crud01-8f7b4:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-06T19:06:24.435Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crud01-8f7b4 [none]
+[debug] [2023-09-06T19:06:24.827Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crud01-8f7b4 200
+[debug] [2023-09-06T19:06:24.828Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crud01-8f7b4 {"projectId":"crud01-8f7b4","projectNumber":"869505125926","displayName":"Crud01","name":"projects/crud01-8f7b4","resources":{"hostingSite":"crud01-8f7b4"},"state":"ACTIVE","etag":"1_bcc37c76-f300-4233-9457-7e74d47712d3"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Loaded env from C:\Users\jakap\OneDrive\Desktop\CRUDMONGODB\my-crudproject\.env
+
+[info] - info Creating an optimized production build...
+
